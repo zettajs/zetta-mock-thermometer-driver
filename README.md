@@ -1,19 +1,19 @@
-# Zetta Photocell Mock Driver
+# Zetta Thermometer Mock Driver
 
 ## Install
 
 ```
-$> npm install zetta-photocell-mock-driver
+$> npm install zetta-thermometer-mock-driver
 ```
 
 ## Usage
 
 ```javascript
 var zetta = require('zetta');
-var Photocell = require('zetta-photocell-mock');
+var Thermometer = require('zetta-thermometer-mock');
 
 zetta()
-  .use(Photocell)
+  .use(Thermometer)
   .listen(1337)
 ```
 

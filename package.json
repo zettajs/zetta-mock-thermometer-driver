@@ -1,24 +1,26 @@
 {
-  "name": "zetta-photocell-mock-driver",
-  "version": "0.6.0",
+  "name": "zetta-thermometer-mock-driver",
+  "version": "0.0.1",
   "description": "Mock Zetta device that generates a sine wave.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "zetta"
+    "zetta",
+    "temperature",
+    "thermometer"
   ],
-  "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
+  "author": "Brian Mulloy <brian@landlessness.net>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zettajs/zetta-photocell-mock-driver.git"
+    "url": "https://github.com/zettajs/zetta-thermometer-mock-driver.git"
   },
   "bugs": {
-    "url": "https://github.com/zettajs/zetta-photocell-mock-driver/issues"
+    "url": "https://github.com/zettajs/zetta-thermometer-mock-driver/issues"
   },
-  "homepage": "https://github.com/zettajs/zetta-photocell-mock-driver",
+  "homepage": "https://github.com/zettajs/zetta-thermometer-mock-driver",
   "dependencies": {
     "zetta-device": "^0.18.0"
   }
