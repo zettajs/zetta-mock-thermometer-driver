@@ -17,7 +17,7 @@ util.inherits(Thermometer, Device);
 
 Thermometer.prototype.init = function(config) {
   config
-    .name('thermometer')
+    .name('Thermometer')
     .type('thermometer')
     .state('ready')
     .when('ready', {allow: ['make-not-ready']})
